@@ -15,6 +15,15 @@
   min-width: 320px;
 }
 
+.project-img {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  image-rendering: pixelated;
+  vertical-align: middle;
+}
+
 .info-jacob-photo {
   border-radius: 100%;
   display: flex;
