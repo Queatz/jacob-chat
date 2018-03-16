@@ -18,12 +18,14 @@
 .info-jacob-photo {
   border-radius: 100%;
   display: flex;
+  top: 8px;
+  right: 16px;
   width: 320px;
   height: 320px;
   flex-grow: 1;
   margin-bottom: 2rem;
 
-  background-image: url('/assets/jacob.jpg');
+  background-image: url('/assets/bun.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -46,12 +48,19 @@
   font-size: 150%;
 }
 
-.info-text {
+.info-text{
   font-size: 1.5rem;
 }
 
 .info-box {
   padding: 2rem;
+}
+.info-box > ul > li{
+  display: inline;
+  padding: 60px;
+}
+.info-box > li{
+  text-indent: 5%;
 }
 
 .info-header {
