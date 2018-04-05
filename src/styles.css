@@ -9,6 +9,8 @@ body {
   background-size: cover;
   background-position: 33% 50%;
   background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: #f3f3f3;
 }
 
 .btn {

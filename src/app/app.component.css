@@ -19,7 +19,6 @@
   border-radius: 100%;
   display: flex;
   top: 8px;
-  right: 16px;
   width: 320px;
   height: 320px;
   flex-grow: 1;
@@ -50,6 +49,17 @@
 
 .info-text{
   font-size: 1.5rem;
+}
+
+.flex-grow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-grow div {
+  display: flex;
+  flex: 50%;
+  width: 100%;
 }
 
 .info-box {
