@@ -53,12 +53,14 @@
 
 .flex-grow{
   display: flex;
+  /*flex: 0 1 25%;*/
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
 .flex-grow div {
   display: flex;
-  flex: 50%;
+  flex: 1 0 50%; 
 }
 
 .info-box {
