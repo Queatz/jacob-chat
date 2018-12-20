@@ -59,7 +59,6 @@
 .flex-grow div {
   display: flex;
   flex: 50%;
-  width: 100%;
 }
 
 .info-box {
